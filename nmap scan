@@ -1,0 +1,7 @@
+#scan open TCP and UDP ports 
+
+nmap -n 1-65535 -Pn 127.0.0.1
+
+#stealth scan 
+
+nmap -sS -T4 127.0.0.1
